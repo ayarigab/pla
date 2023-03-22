@@ -1,0 +1,37 @@
+{
+    "name": "ayarigab/pla",
+    "description": "Write progressive Web Applications with laravel webframework.",
+    "type": "library",
+    "keywords": [
+        "laravel-pwa",
+        "pwa-laravel",
+        "laravel",
+        "php"
+    ],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayariga Bright",
+            "email": "ayarigab@jabaapplets.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Ayarigab\\Pla\\": "src/"
+        }
+      },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "\\Ayarigab\\Pla\\PLAServiceProvider"
+        ],
+        "aliases": {
+          "Pla": "Ayarigab\\Pla\\PLA"
+        }
+      }
+    }
+}

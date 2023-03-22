@@ -1,0 +1,17 @@
+{
+    "name": "Laravel Package for Progressive Web App development",
+    "short_name": "PLA",
+    "start_url": "/index.php",
+    "background_color": "#6777ef",
+    "description": "Write Progressive Web Applications with PLA in laravel webframework.",
+    "display": "fullscreen",
+    "theme_color": "#6777ef",
+    "icons": [
+        {
+            "src": "logo.PNG",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
